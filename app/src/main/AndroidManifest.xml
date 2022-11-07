@@ -12,6 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Task_05_Editor_deDiseño"
         tools:targetApi="31">
+        <activity android:name=".Mensaje_que_aparecera"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
         <activity
             android:name=".Ejemplo"
             android:exported="false">
